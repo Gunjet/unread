@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+header {
+  margin: 0;
+}
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgb(0, 0, 0)),
+    url("https://unread.today/files/007afc64-288a-4208-b9d7-3eda84011c1d/1451f11e03da76480966b636a622119a.jpg");
+  background-size: 100%;
+}
+.hero-content {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.hero-content h1 {
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+  padding-right: 52.73px;
+  padding-bottom: 212px;
+}
+.navbar-centered {
+  display: flex;
+  width: 116px;
+  height: 42px;
+}
+.icon-menu {
+  width: 19px;
+  height: 19px;
+}
+.ltxt {
+  color: white;
+  width: 118px;
+  height: 20px;
+}
+.nav-circled {
+  width: 142.68px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.techworm{
+    color: white;
+}
