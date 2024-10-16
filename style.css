@@ -1,43 +1,99 @@
 body {
     margin: 0;
 }
+*{
+  font-family: "Inter", sans-serif;
+letter-spacing: 0.8999999761581421px;
 
-header {
-  margin: 0;
 }
+
+
 .hero {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgb(0, 0, 0)),
     url("https://unread.today/files/007afc64-288a-4208-b9d7-3eda84011c1d/1451f11e03da76480966b636a622119a.jpg");
-  background-size: 100%;
+    background-size: 100%;
+    padding-top: 24px;
 }
 .hero-content {
-  width: 1200px;
+  width: 1116px;
+  height: 446.4px;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 121px;
   display: flex;
   justify-content: space-between;
   color: white;
+
 }
-.hero-content h1 {
-  -webkit-text-stroke: 1px white;
+
+.right{
+  width: 608.6px;
+  height: 273px;
+margin-top: 45px;
+left: 507.39px;
+}
+.text1{
+ color: rgba(0, 120, 246, 1);
+ box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.004);
+ font-size: 14.1px;
+
+}
+.heading1{
   color: transparent;
+  -webkit-text-stroke: 1px white;
+  font-size: 35px;
+  margin-bottom: 0
+}
+.heading2 {
+  -webkit-text-stroke: 1px white;
+ top: 0;
   padding-right: 52.73px;
-  padding-bottom: 212px;
+  font-size: 35px;
+  font-weight: 900
+}
+.profile{
+  width: 609.6px;
+  height: 44px;
+  display: flex;
+  gap: 10px;
+}
+.nameofauhtor{
+  font-size: 12px;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.004);
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.004);
+  margin-top: 3px;
+
+}
+.texts{
+  flex-direction: column;
+
+  align-items: center
 }
 .navbar-centered {
   display: flex;
-  width: 116px;
+  align-items: center;
+  justify-content: space-between;
+ width: 1116px;
   height: 42px;
+margin-left: auto;
+margin-right: auto;
+
 }
 .icon-menu {
-  width: 19px;
-  height: 19px;
+  width: 30px;
+  height: 42px;
+ margin-left: 33px;
+ display: flex; 
+ align-items: center
+
 }
 .ltxt {
   color: white;
   width: 118px;
   height: 20px;
+  font-size: 11.6px;
 }
 .nav-circled {
   width: 142.68px;
@@ -47,7 +103,18 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 11.8px
 }
 .techworm{
     color: white;
+    font-size: 12px;
+}
+.zuraas{
+  background-color: white;
+  height: 18px;
+  width: 1px;
+}
+.navigation{
+  display: flex;
+  align-items: center;
 }
