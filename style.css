@@ -4,10 +4,9 @@ body {
 *{
   font-family: "Inter", sans-serif;
 letter-spacing: 0.8999999761581421px;
+box-sizing: content-box
 
 }
-
-
 .hero {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgb(0, 0, 0)),
@@ -84,7 +83,7 @@ margin-right: auto;
 .icon-menu {
   width: 30px;
   height: 42px;
- margin-left: 33px;
+ margin-left: 60px;
  display: flex; 
  align-items: center
 
@@ -93,7 +92,8 @@ margin-right: auto;
   color: white;
   width: 118px;
   height: 20px;
-  font-size: 11.6px;
+  font-size: 10.2px;
+  opacity: .4
 }
 .nav-circled {
   width: 142.68px;
@@ -103,7 +103,10 @@ margin-right: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 11.8px
+  font-size: 11.8px;
+  box-shadow: 4px 4px 50px -4px rgba(209, 209, 209, 0.6);
+  opacity: .6
+
 }
 .techworm{
     color: white;
@@ -117,4 +120,30 @@ margin-right: auto;
 .navigation{
   display: flex;
   align-items: center;
+}
+.icons{
+  width: 109.11px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  padding-left: 11px;
+gap: 11px
+}
+.leftbar{
+  display: flex;
+  justify-content: space-between;
+  width: 311.9px
+}
+.rightbar{
+  display: flex;
+  justify-content: space-between;
+  width: 359.21px;
+}
+.mar-orn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
