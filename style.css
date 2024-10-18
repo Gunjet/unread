@@ -12,14 +12,14 @@ box-sizing: border-box
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgb(0, 0, 0)),
     url("https://unread.today/files/007afc64-288a-4208-b9d7-3eda84011c1d/1451f11e03da76480966b636a622119a.jpg");
     background-size: 100%;
-    padding-top: 24px;
+    padding-top: 18px;
 }
 .hero-content {
-  width: 1100px;
+  width: 1120px;
   height: 450px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 35px;
+  margin-top: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -34,7 +34,7 @@ left: 507.39px;
 .text1{
  color: rgba(0, 120, 246, 1);
  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.004);
- font-size: 12px;
+ font-size: 13px;
  font-weight: bold;
 
 }
@@ -82,17 +82,16 @@ letter-spacing: 0.8999999761581421px;
 .navbar-centered {
   display: flex;
   align-items: center;
-  justify-content: space-around;
- width: 1300px;
+  justify-content: space-between;
+ width: 1600px;
   height: 60px;
-margin-left: auto;
+  margin-left: auto;
 margin-right: auto;
 
 
 }
 .icon-menu {
-  height: 42px;
- margin-left: 60px;
+ height: 12px;
  display: flex; 
  align-items: center;
 
@@ -129,7 +128,7 @@ margin-right: auto;
 }
 .techworm{
     color: white;
-    font-size: 13px;
+    font-size: 12px;
 }
 .zuraas{
   background-color: white;
@@ -141,35 +140,40 @@ margin-right: auto;
   align-items: center;
 }
 .blackbg{
-  height: 20px;
-  width: 2240px;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: 1920px;
   background-color: black
 }
 .leftbar{
   display: flex;
   width: 330px;
-  height: 20px;
-  justify-content: space-between
+  height: 18px;
+  justify-content: space-between;
 }
 .rightbar{
   width: 400px;
   display: flex;
   justify-content: space-between;
-  align-items: center
+  align-items: center;
 
 }
 .social-links{
   display: flex;
   justify-content: space-between;
-  margin-right: 33px;
   width: 100px;
+  height: 13px;
+  opacity: .4;
+
 }
 .cards{
 margin-top: -220px; 
 display: flex;
 justify-content: center;
-width: 1800px;
-
-
-
+gap: 28px;
+width: 1890px;
+}
+.card-covers{
+  height: 430px;
 }
