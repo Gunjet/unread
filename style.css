@@ -480,7 +480,7 @@ font-weight: bold;
   color: black;
   opacity: .4;
   font-size: 12px;
-  
+
  }
  .section3-header-title3{
   width: 212px;
@@ -589,43 +589,45 @@ font-weight: bold;
   margin-top: 50px
 }
  .h{
-  background-image: url("Div\ [uk-cover-background].png");
+  /* background-image: url("Div\ [uk-cover-background].png"); */
+  background-image: url("Div\ [uk-cover-background]-8.png");
   grid-column: 1 / 3;
   grid-row: 1 / 7;
   background-size: cover
  }
  .i{
-  background-image: url("Div\ [uk-cover-background]-2.png");
+  /* background-image: url("Div\ [uk-cover-background]-2.png"); */
+  background-image: url("Div\ [uk-cover-background]-9.png");
   grid-column: 3 / 4;
   grid-row: 1 / 5;
   background-size: cover
  }
  .j{
-  background-image: url("Div\ [uk-cover-background]-3.png");
+  background-image: url("Div\ [uk-cover-background]-10.png");
   grid-column: 4 / 5;
   grid-row: 1 / 5;
   background-size: cover
  }
  .k{
-  background-image: url("Div\ [uk-cover-background]-4.png");
+  background-image: url("Div\ [uk-cover-background]-11.png");
   grid-column: 1 / 2;
   grid-row: 7 / 11;
   background-size: cover
  }
  .l{
-  background-image: url("Div\ [uk-cover-background]-5.png");
+  background-image: url("Div\ [uk-cover-background]-12.png");
   grid-column: 2 / 3;
   grid-row: 7 / 11;
   background-size: cover
  }
  .m{
-  background-image: url("Div\ [uk-cover-background]-6.png");
+  background-image: url("Div\ [uk-cover-background]-13.png");
   grid-column: 3 / 4;
   grid-row:   5 / 11;
   background-size: cover
  }
  .n{
-  background-image: url("Div\ [uk-cover-background]-7.png");
+  background-image: url("Div\ [uk-cover-background]-14.png");
   grid-column: 4 / 5;
   grid-row: 5 / 11;
   background-size: cover
@@ -663,17 +665,19 @@ font-weight: bold;
   /* background-color: green; */
   width: 466.4px;
   height: 403px;
-  padding-left: 50px
+  padding-left: 40px
  }
  .footer-content-rightside{
-  background-color: red;
+  /* background-color: red; */
   width: 650px;
   height: 403px 
  }
  .footer-content-bottom{
-  background-color: aqua;
+  /* background-color: aqua; */
   width: 1151px;
-  height: 72px
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
  }
  .footer-content-left-rightside{
   display: flex;
@@ -720,6 +724,7 @@ font-weight: bold;
   border-radius: 18px;
   gap: 20px
  }
+
  .leftside-application-downloadsrc{
   display: flex;
   flex-direction: row;
@@ -735,35 +740,54 @@ font-weight: bold;
 .footer-content-rightside-item-top{
   width: 397.61px;
   height: 21.5px;
-  background-color: pink;
-  margin-bottom: 20px;
-  font-size: 13px;
-  margin-left: 50px
+  /* background-color: pink; */
+  margin-bottom: 40px;
+  font-size: 13.4px;
+  margin-left: 50px;
+  color: white
 }
 .footer-content-rightside-item-middle{
-  width: 500px;
+  width: 600px;
   height: 26px;
-  background-color: green;
-  margin-bottom: 40px;
+  /* background-color: green; */
+  /* margin-bottom: 30px; */
   font-size: 10px;
+  color: white;
+  opacity: .4;
   margin-left: 50px
 }
 .footer-content-rightside-item-bottom{
   width: 625px;
   height: 264px;
-  background-color: yellow;
-  margin-bottom: 0;
+  /* background-color: yellow; */
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
   margin-left: 25px;
-  font-size: 11.6px
+  font-size: 11.6px;
+  color: white
 }
 .bottom-item{
   display: flex;
   flex-direction: column ;
-  justify-content: center;
+  justify-content: space-between;
+  padding-left: 20px;
   width: 208px;
-  height: 264px
+  height: 264px;
+  line-height: 25px;
+
+}
+.bottom-item2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 208px;
+  height: 195px;
+  /* background-color: grey; */
+  padding-left: 25px;
+  margin-top: 32px;
+  margin-bottom: 10px;
+  /* opacity: 4; */
 }
 .leftside-items-text1{
   font-size: 11.6px;
@@ -782,6 +806,29 @@ font-weight: bold;
   height: 54px;
   background-color: black;
   border-radius: 50px;
+ }
+.turzuriimnertei{
+  width: 323px;
+  height: 90px;
+  margin-top: 45px;
+  margin-bottom: 25px
+
+}
+.turzuriimnertei2{
+  width: 323px;
+  height: 90px;
+}
+.soclinks{
+  opacity: .3
+}
+.texts-blue{
+  color: rgba(0, 120, 246, 1);
+  font-size: 14.1px;
+  font-weight: bold
+
+}
+.texts{
+  opacity: .4;
 }
 
 
