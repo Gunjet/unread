@@ -40,6 +40,21 @@ left: 507.39px;
  font-size: 13px;
  font-weight: bold;
 
+ animation-name: blink;
+ animation-iteration-count: infinite;
+ animation-duration: 1.5s;
+
+}
+@keyframes blink {
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
 .heading1{
   color: transparent;
