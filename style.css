@@ -211,9 +211,7 @@ margin-right: auto;
   width: 100px;
   height: 13px;
   opacity: .4;
-
 }
-
 .text-slider{
   display: flex;
   justify-content: center;
@@ -315,8 +313,14 @@ font-weight: bold;
 .cards{
   margin-top: -220px; 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
   gap: 28px;
+  width: 1680px;
+  height: 500px;
+  background-color: aqua;
+  overflow: scroll;
  }
 .card-covers{
     height: 426px;
@@ -1038,11 +1042,15 @@ font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
- 
 }
-.material-symbols-outlined{
+.circle-button{
+  width: 55px;
+  height: 55px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 .turzuriimnertei{
   width: 323px;
   height: 90px;
@@ -1056,9 +1064,32 @@ font-weight: bold;
   gap: 35px;
   justify-content: center;
   align-items: center;
+  position: relative
 }
 .turzuriimnertei:hover{
   transform: translateX(5px)
+}
+.turzuriimnertei:hover .circle-black{
+  width: 45px;
+  height: 45px;
+  border-radius: 35px;
+  background-color: rgba(0, 120, 246, 1);
+}
+.turzuriimnertei:hover .circle-button{
+  background-color: pink;
+  /* opacity: .4; */
+  display: block
+}
+.turzuriimnertei2:hover .circle-black{
+  width: 45px;
+  height: 45px;
+  border-radius: 35px;
+  background-color: rgba(0, 120, 246, 1);
+}
+.turzuriimnertei2:hover .circle-button{
+  background-color: pink;
+  /* opacity: .4; */
+  display: block
 }
 .turzuriimnertei-text-container{
   display: flex;
