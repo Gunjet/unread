@@ -69,6 +69,7 @@ left: 507.39px;
  animation-duration: 1.5s;
 
 }
+
 @keyframes blink {
   0%{
     opacity: 1;
@@ -95,8 +96,6 @@ left: 507.39px;
   margin-top: 0;
 font-weight: 800;
 letter-spacing: 0.8999999761581421px;
-
-
 }
 .profile{
   width: 300px;
@@ -104,6 +103,11 @@ letter-spacing: 0.8999999761581421px;
   display: flex;
   align-items: center;
   gap: 8px;
+}
+.slider{
+  display: flex;
+  justify-content: center;
+  color: white
 }
 .nameofauthor{
   font-size: 12px;
@@ -133,8 +137,14 @@ letter-spacing: 0.8999999761581421px;
   height: 60px;
   margin-left: auto;
 margin-right: auto;
-
-
+}
+.text-slider{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
 }
 .icon-menu {
  height: 12px;
@@ -189,7 +199,7 @@ margin-right: auto;
   display: flex;
   justify-content: space-between;
   height: 32px;
-  width: 2240px;
+  width: 100%;
   background-color: black
 }
 .leftbar{
@@ -212,7 +222,7 @@ margin-right: auto;
   height: 13px;
   opacity: .4;
 }
-.text-slider{
+.soclinks:hover{
   display: flex;
   justify-content: center;
 }
@@ -226,26 +236,36 @@ margin-top: 100px;
 font-size: 15px;
 font-weight: bold;
   color: white;
-
 }
 .slider{
   background-color: rgba(255, 255, 255, 1);
   opacity: .4;
   width: 53px;
   height: 27px;
-  border-radius: 15px
-
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.chevront{
+  height: 20px;
+  color: white;
+  cursor: pointer;
+}
+.chevron{
+  height: 25px
 }
 .first-card{
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.6) 100%);
   background-image: url("Div\ [cover]-2.png");
-  background-size: cover;
-  height: 420px;
-  width: 290px;
   border-radius: 13px;
+  background-size: cover;
+  background-position: center;
   justify-content: center;
   position: relative;
+  height: 420px;
+  width: 290px;
   transition: transform 0.3s;
+
 }
 .first-card:hover{
   transform: scale(1.1);
@@ -261,12 +281,14 @@ font-weight: bold;
 .second-card{
   background-image: url("Div\ [cover]-3.png");
   background-size: cover;
-  height: 420px;
-  width: 290px;
   border-radius: 13px;
   justify-content: center;
   position: relative;
   transition: transform 0.3s;
+  height: 420px;
+  width: 290px;
+  background-repeat: no-repeat;
+
 }
 .second-card:hover{
   transform: scale(1.1);
@@ -274,12 +296,14 @@ font-weight: bold;
 .third-card{
   background-image: url("Div\ [cover]-4.png"); 
   background-size: cover;
-  height: 420px;
-  width: 290px;
   border-radius: 13px;
   justify-content: center;
   position: relative;
   transition: transform 0.3s;
+  height: 420px;
+  width: 290px;
+  background-repeat: no-repeat;
+
 }
 .third-card:hover{
   transform: scale(1.1);
@@ -287,18 +311,36 @@ font-weight: bold;
 .fourth-card{
   background-image: url("Div\ [cover]-6.png");
   background-size: cover;
-  height: 420px;
-  width: 290px;
   border-radius: 13px;
   justify-content: center;
   position: relative;
   transition: transform 0.3s;
+  height: 420px;
+  width: 290px;
+  background-repeat: no-repeat;
+
 }
 .fourth-card:hover{
   transform: scale(1.1);
 }
+
 .fifth-card{
   background-image: url("Div\ [cover]-5.png");
+  background-size: cover;
+  border-radius: 13px;
+  justify-content: center;
+  position: relative;
+  transition: transform 0.3s;
+  height: 420px;
+  width: 290px;
+  background-repeat: no-repeat;
+
+}
+.fifth-card:hover{
+  transform: scale(1.1);
+}
+.sixth-card{
+  background-image: url('https://unread.today/files/007afc64-288a-4208-b9d7-3eda84011c1d/e529b49ff2d0ec2e1634b37674947be9_square.jpg');
   background-size: cover;
   height: 420px;
   width: 290px;
@@ -306,21 +348,48 @@ font-weight: bold;
   justify-content: center;
   position: relative;
   transition: transform 0.3s;
+  background-repeat: no-repeat;
+
 }
-.fifth-card:hover{
+.sixth-card:hover{
+  transform: scale(1.1);
+}
+.seventh-card{
+  background-image:url('https://unread.today/files/dca82359-3f6e-4c03-99ef-ef493c68a7aa/a4b683673a431e02ddd0434481af9db3_square.jpg');
+  background-size: cover;
+  height: 420px;
+  width: 290px;
+  border-radius: 13px;
+  justify-content: center;
+  position: relative;
+  transition: transform 0.3s;
+  display: block;
+  background-repeat: no-repeat;
+
+}
+.seventh-card:hover{
   transform: scale(1.1);
 }
 .cards{
-  margin-top: -220px; 
   display: flex;
-  justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
+  flex-direction: row;
   gap: 28px;
-  width: 1680px;
-  height: 500px;
-  background-color: aqua;
-  overflow: scroll;
+  padding-left: 2rem;
+  /* position: relative */
+ }
+ .cards-container{
+  display: flex;
+  justify-content: center;
+ width: 83%;
+ margin-left: auto;
+ margin-right: auto;
+ gap: 28px;
+ overflow-x: scroll;
+ margin-top: -220px;
+ padding-top: 2rem;
+ padding-bottom: 2rem;
+ padding-right: 2rem;
+ /* position: relative */
  }
 .card-covers{
     height: 426px;
@@ -1039,17 +1108,17 @@ font-weight: bold;
   background-color: black;
   border-radius: 30px;
   color: white;
-  display: flex;
   align-items: center;
   justify-content: center;
+  display: flex
 }
 .circle-button{
   width: 55px;
   height: 55px;
   border-radius: 40px;
-  /* display: flex; */
   align-content: center;
-  justify-items: center;
+  justify-content: center;
+  padding-left: 7px;
 }
 .turzuriimnertei{
   width: 323px;
@@ -1073,23 +1142,29 @@ font-weight: bold;
   width: 38px;
   height: 38px;
   border-radius: 35px;
+  display: flex;
   background-color: rgba(0, 120, 246, 1);
 }
 .turzuriimnertei:hover .circle-button{
   background-color: rgba(0, 120, 246, 0.4);
   /* opacity: .4; */
-  display: block
+  display: block;
+  align-content: center;
+  justify-content: center;
 }
 .turzuriimnertei2:hover .circle-black{
   width: 38px;
   height: 38px;
   border-radius: 35px;
   background-color: rgba(0, 120, 246, 1);
+
 }
 .turzuriimnertei2:hover .circle-button{
   background-color: rgba(0, 120, 246, 0.4);
   /* opacity: .4; */
-  display: block
+  display: block;
+  align-content: center;
+  /* justify-content: center; */
 }
 .turzuriimnertei-text-container{
   display: flex;
@@ -1122,7 +1197,8 @@ font-weight: bold;
 }
 .soclinks{
   opacity: .3;
-
+}
+.soclinks a:hover{
 }
 .texts-blue{
   color: rgba(0, 120, 246, 1);
@@ -1143,9 +1219,3 @@ font-weight: bold;
 .textsq:hover{
   opacity: 10;
 }
-
-
-
-
-
-
