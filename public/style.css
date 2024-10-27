@@ -1032,10 +1032,26 @@ font-weight: bold;
   padding-left: 40px
   /* margin-top: 60px */
  }
-.googleplay-appstore{
+/* .googleplay-appstore{
   width: 144px;
   height: 45.57px;
   background-color: blueviolet;
+  border-radius: 8px */
+/* } */
+.googleplay-appstore1{
+  background-image: url('Image-3.png');
+  background-position: center;
+  background-size: cover;
+  width: 144px;
+  height: 45.57px;
+  border-radius: 8px
+}
+.googleplay-appstore2{
+  background-image: url('Image-4.png');
+  background-position: center;
+  background-size: cover;
+  width: 144px;
+  height: 45.57px;
   border-radius: 8px
 }
 .footer-content-rightside-item-top{
@@ -1197,6 +1213,9 @@ font-weight: bold;
 }
 .soclinks{
   opacity: .3;
+}
+.soclinks{
+  background-image: url('');
 }
 .soclinks a:hover{
 }
