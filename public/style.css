@@ -1046,6 +1046,9 @@ font-weight: bold;
   height: 45.57px;
   border-radius: 8px
 }
+.googleplay-appstore1:hover{
+  text-decoration: none;
+}
 .googleplay-appstore2{
   background-image: url('Image-4.png');
   background-position: center;
@@ -1154,6 +1157,9 @@ font-weight: bold;
 .turzuriimnertei:hover{
   transform: translateX(5px)
 }
+.linktounr{
+  /* display: none */
+}
 .turzuriimnertei:hover .circle-black{
   width: 38px;
   height: 38px;
@@ -1227,10 +1233,13 @@ font-weight: bold;
 }
 .textsq{
   opacity: .4;
-  transition: transform 0.3s
+  transition: transform 0.3s;
+  text-decoration: none;
+  color: white;
 }
 .textsq:hover{
- transform: translateX(5px)
+ transform: translateX(5px);
+
 }
 .textsw{
   opacity: .4;
