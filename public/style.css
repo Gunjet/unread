@@ -427,6 +427,8 @@ font-weight: bold;
   position: absolute
 
 }
+.card-bottom-section{
+}
 .bottom-row-section{
   display: flex;
   flex-direction: row;
@@ -1044,9 +1046,6 @@ font-weight: bold;
   height: 45.57px;
   border-radius: 8px
 }
-.googleplay-appstore1:hover{
-  text-decoration: none;
-}
 .googleplay-appstore2{
   background-image: url('Image-4.png');
   background-position: center;
@@ -1150,7 +1149,8 @@ font-weight: bold;
   gap: 35px;
   justify-content: center;
   align-items: center;
-  position: relative
+  position: relative;
+  text-decoration: none
 }
 .turzuriimnertei:hover{
   transform: translateX(5px)
@@ -1208,6 +1208,7 @@ font-weight: bold;
   gap: 35px;
   justify-content: center;
   align-items: center;
+  text-decoration: none
 }
 .turzuriimnertei2:hover{
   transform: translateX(5px)
@@ -1217,6 +1218,8 @@ font-weight: bold;
 }
 .soclinks{
   background-image: url('');
+}
+.soclinks a:hover{
 }
 .texts-blue{
   color: rgba(0, 120, 246, 1);
