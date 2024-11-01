@@ -30,6 +30,7 @@ box-sizing: border-box;
   align-items: center;
   justify-content: space-between;
   color: white;
+  text-decoration: none;
 
 }
 .hero-image1{
@@ -500,6 +501,8 @@ font-weight: bold;
   width: 739px;
   margin-bottom: 50px;
   transition: transform 0.3s;
+  text-decoration: none;
+  color: black;
 }
 .content-container:hover{
   transform: translateY(-5px);
@@ -510,7 +513,9 @@ font-weight: bold;
   width: 739px;
   margin-bottom: 50px;
   margin-left: 377px;
-  transition: 0.3s
+  transition: 0.3s;
+  text-decoration: none;
+  color: black;
 }
 .content-container2:hover{
   transform: translateY(-5px)
@@ -594,6 +599,8 @@ font-weight: bold;
  font-size: 21.2px;
  font-weight: bold;
  line-height: 2.6rem;
+ text-decoration: none;
+ color:black
  }
  .content-author-img{
   width: 135px;
