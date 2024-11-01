@@ -427,8 +427,7 @@ font-weight: bold;
   position: absolute
 
 }
-.card-bottom-section{
-}
+
 .bottom-row-section{
   display: flex;
   flex-direction: row;
@@ -1219,8 +1218,7 @@ font-weight: bold;
 .soclinks{
   background-image: url('');
 }
-.soclinks a:hover{
-}
+
 .texts-blue{
   color: rgba(0, 120, 246, 1);
   font-size: 14.1px;
