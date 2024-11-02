@@ -31,14 +31,12 @@ box-sizing: border-box;
   justify-content: space-between;
   color: white;
   text-decoration: none;
-
 }
 .hero-image1{
   width: 448px;
   height: 447px;
   overflow: hidden;
   border-radius: 20px;
-
 }
 .hero-image{
   background-image: url(./Figure\ [uk-overlay].png);
@@ -53,7 +51,6 @@ box-sizing: border-box;
 .hero-image:hover{
   background-size: 110%;
 }
-
 .right{
   width: 600px;
   height: 300px;
@@ -68,9 +65,7 @@ left: 507.39px;
  animation-name: blink;
  animation-iteration-count: infinite;
  animation-duration: 1.5s;
-
 }
-
 @keyframes blink {
   0%{
     opacity: 1;
@@ -115,7 +110,8 @@ letter-spacing: 0.8999999761581421px;
   font-weight: bold;
   color: rgba(255, 255, 255, 1);
   margin-top: 3px;
-  opacity: .4
+  opacity: .4;
+  text-decoration: none;
 }
 .nameofauthor:hover{
  opacity: 10;
@@ -127,7 +123,6 @@ letter-spacing: 0.8999999761581421px;
 }
 .texts{
   flex-direction: column;
-
   align-items: center
 }
 .navbar-centered {
@@ -143,7 +138,6 @@ margin-right: auto;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  /* background-color: green; */
   display: flex;
   justify-content: center;
 }
@@ -151,7 +145,6 @@ margin-right: auto;
  height: 12px;
  display: flex; 
  align-items: center;
-
 }
 .ltxt {
   color: white;
@@ -172,7 +165,6 @@ margin-right: auto;
   font-size: 12px;
   gap: 15px;
   box-shadow: 4px 4px 50px -4px rgba(209, 209, 209, 0.6);
-
 }
 .bluecircle{
   width: 7px;
@@ -181,7 +173,6 @@ margin-right: auto;
   background-color:rgba(0, 120, 246, 1);
   display: flex;
   align-items: center;
-
 }
 .techworm{
     color: white;
@@ -214,7 +205,6 @@ margin-right: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 .social-links{
   display: flex;
@@ -266,7 +256,6 @@ font-weight: bold;
   height: 420px;
   width: 290px;
   transition: transform 0.3s;
-
 }
 .first-card:hover{
   transform: scale(1.1);
@@ -289,7 +278,6 @@ font-weight: bold;
   height: 420px;
   width: 290px;
   background-repeat: no-repeat;
-
 }
 .second-card:hover{
   transform: scale(1.1);
@@ -304,7 +292,6 @@ font-weight: bold;
   height: 420px;
   width: 290px;
   background-repeat: no-repeat;
-
 }
 .third-card:hover{
   transform: scale(1.1);
@@ -319,7 +306,6 @@ font-weight: bold;
   height: 420px;
   width: 290px;
   background-repeat: no-repeat;
-
 }
 .fourth-card:hover{
   transform: scale(1.1);
@@ -376,7 +362,6 @@ font-weight: bold;
   flex-direction: row;
   gap: 28px;
   padding-left: 2rem;
-  /* position: relative */
  }
  .cards-container{
   display: flex;
@@ -390,7 +375,6 @@ font-weight: bold;
  padding-top: 2rem;
  padding-bottom: 2rem;
  padding-right: 2rem;
- /* position: relative */
  }
 .card-covers{
     height: 426px;
@@ -476,7 +460,6 @@ font-weight: bold;
   font-size: 10px;
   background-color: rgba(0, 120, 246, 1);
   color: white;
-  /* width: 190px; */
   width: auto;
   height: 26px;
   display: flex;
@@ -494,7 +477,6 @@ font-weight: bold;
   width: 1116px;
   height: 1500px;
   margin-top: 120px;
-  /* background-color: green; */
 }
 .content-container{
   height: 236px;
@@ -524,13 +506,15 @@ font-weight: bold;
   height: 53px;
   display: flex;
   align-items: center;
-  gap: 10px
+  gap: 10px;
+  text-decoration: none;
 }
 .profile-section-rightside{
   display: flex;
   justify-content: flex-end;
   gap: 10px;
   height: 53px;
+  text-decoration: none;
 }
 .profile-picture{
   width: 35px;
@@ -623,7 +607,6 @@ font-weight: bold;
  }
  .section3-header{
   height: 62px;
-  /* background-color: black; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -955,29 +938,23 @@ font-weight: bold;
 
  }
  .footer-content{
-  /* background-color: brown; */
   width: 1186px;
   height: 480px;
   margin-top: 74px;
-  /* padding-bottom: 88px; */
   display: flex;
   justify-content: space-between;
-  /* flex-direction: column; */
 
  }
  .footer-content-leftside{
-  /* background-color: green; */
   width: 466.4px;
   height: 340px;
   padding-left: 40px
  }
  .footer-content-rightside{
-  /* background-color: red; */
   width: 650px;
   height: 403px 
  }
  .footer-content-bottom{
-  /* background-color: aqua; */
   width: 1151px;
   height: 32px;
   display: flex;
@@ -986,13 +963,10 @@ font-weight: bold;
  .footer-content-left-rightside{
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
-  /* padding-left: 30px */
  }
  .footer-content-bottom-container{
   display: flex;
   justify-content: center;
-  /* padding-bottom: 80px */
  }
  .unread-logo{
   height: 18px;
@@ -1036,14 +1010,7 @@ font-weight: bold;
   gap: 15px;
   margin-bottom: 90px;
   padding-left: 40px
-  /* margin-top: 60px */
  }
-/* .googleplay-appstore{
-  width: 144px;
-  height: 45.57px;
-  background-color: blueviolet;
-  border-radius: 8px */
-/* } */
 .googleplay-appstore1{
   background-image: url('Image-3.png');
   background-position: center;
@@ -1063,7 +1030,6 @@ font-weight: bold;
 .footer-content-rightside-item-top{
   width: 397.61px;
   height: 21.5px;
-  /* background-color: pink; */
   margin-bottom: 40px;
   font-size: 13.4px;
   margin-left: 50px;
@@ -1072,8 +1038,6 @@ font-weight: bold;
 .footer-content-rightside-item-middle{
   width: 600px;
   height: 26px;
-  /* background-color: green; */
-  /* margin-bottom: 30px; */
   font-size: 10px;
   color: white;
   opacity: .4;
@@ -1082,7 +1046,6 @@ font-weight: bold;
 .footer-content-rightside-item-bottom{
   width: 625px;
   height: 264px;
-  /* background-color: yellow; */
   margin-top: 50px;
   display: flex;
   flex-direction: row;
@@ -1106,11 +1069,9 @@ font-weight: bold;
   justify-content: space-between;
   width: 208px;
   height: 195px;
-  /* background-color: grey; */
   padding-left: 25px;
   margin-top: 32px;
   margin-bottom: 10px;
-  /* opacity: 4; */
 }
 .leftside-items-text1{
   font-size: 11.6px;
@@ -1170,7 +1131,6 @@ font-weight: bold;
 }
 .turzuriimnertei:hover .circle-button{
   background-color: rgba(0, 120, 246, 0.4);
-  /* opacity: .4; */
   display: block;
   align-content: center;
   justify-content: center;
@@ -1184,10 +1144,8 @@ font-weight: bold;
 }
 .turzuriimnertei2:hover .circle-button{
   background-color: rgba(0, 120, 246, 0.4);
-  /* opacity: .4; */
   display: block;
   align-content: center;
-  /* justify-content: center; */
 }
 .turzuriimnertei-text-container{
   display: flex;
@@ -1222,15 +1180,14 @@ font-weight: bold;
 .soclinks{
   opacity: .3;
 }
-.soclinks{
-  background-image: url('');
+.soclinks:hover{
+  color: blue;
 }
 
 .texts-blue{
   color: rgba(0, 120, 246, 1);
   font-size: 14.1px;
   font-weight: bold
-
 }
 .textsq{
   opacity: .4;
