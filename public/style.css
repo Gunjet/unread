@@ -5,8 +5,6 @@ body {
 *{
   font-family: "Inter", sans-serif;
 box-sizing: border-box;
-
-
 }
 .hero {
   height: 79vh;
@@ -1179,11 +1177,15 @@ font-weight: bold;
 }
 .soclinks{
   opacity: .3;
+  transition: transform 0.3s;
+  cursor: pointer;
+  /* width: 32px;
+  height: 32px; */
 }
 .soclinks:hover{
   color: blue;
+  transform: scale(1.1);
 }
-
 .texts-blue{
   color: rgba(0, 120, 246, 1);
   font-size: 14.1px;
@@ -1197,7 +1199,6 @@ font-weight: bold;
 }
 .textsq:hover{
  transform: translateX(5px);
-
 }
 .textsw{
   opacity: .4;
@@ -1205,3 +1206,4 @@ font-weight: bold;
 .textsq:hover{
   opacity: 10;
 }
+
