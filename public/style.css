@@ -361,19 +361,34 @@ font-weight: bold;
   gap: 28px;
   padding-left: 2rem;
  }
- .cards-container{
+ .cards-container {
   display: flex;
   justify-content: center;
- width: 83%;
- margin-left: auto;
- margin-right: auto;
- gap: 28px;
- overflow-x: scroll;
- margin-top: -300px;
- padding-top: 2rem;
- padding-bottom: 2rem;
- padding-right: 2rem;
- }
+  width: 83%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 28px;
+  overflow-x: scroll;
+  margin-top: 5rem; 
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+}
+
+@media (max-width: 1280px) {
+  .cards-container {
+    margin-top: 3rem; 
+    padding-top: 1.5rem; 
+  }
+}
+
+@media (max-width: 768px) { 
+  .cards-container {
+    margin-top: 2rem; 
+    padding-top: 1rem;
+  }
+}
+
 .card-covers{
     height: 426px;
     width: 270px;
