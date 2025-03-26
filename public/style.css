@@ -361,34 +361,19 @@ font-weight: bold;
   gap: 28px;
   padding-left: 2rem;
  }
- .cards-container {
+ .cards-container{
   display: flex;
   justify-content: center;
-  width: 83%;
-  margin-left: auto;
-  margin-right: auto;
-  gap: 28px;
-  overflow-x: scroll;
-  margin-top: 2rem;  /* Smaller margin-top to reduce the gap */
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  padding-right: 2rem;
-}
-
-@media (max-width: 1280px) { /* For MacBook or similar screens */
-  .cards-container {
-    margin-top: 1.5rem;  /* Slightly smaller top margin for smaller screens */
-    padding-top: 1.5rem;  /* Keep the padding consistent */
-  }
-}
-
-@media (max-width: 768px) { /* For tablets or smaller screens */
-  .cards-container {
-    margin-top: 1rem;  /* Even smaller margin for mobile screens */
-    padding-top: 1rem;
-  }
-}
-
+ width: 83%;
+ margin-left: auto;
+ margin-right: auto;
+ gap: 28px;
+ overflow-x: scroll;
+ margin-top: -100px;
+ padding-top: 2rem;
+ padding-bottom: 2rem;
+ padding-right: 2rem;
+ }
 
 .card-covers{
     height: 426px;
